@@ -6,7 +6,7 @@ const PeerId = require("peer-id");
 const ed = require("@noble/ed25519");
 const msgHash = argv.msg;
 const signature = argv.sig;
-const peerId = argv.pk;
+const peerId = argv.peerId;
 
 (async () => {
     const publicKey = PeerId.parse(peerId).marshalPubKey().toString("hex").substr(8);
