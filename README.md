@@ -1,12 +1,13 @@
-## Crypto Tool
+## Ed25519 Tool
 
 ### How to use
 
 #### 1. Install [Node.js](https://nodejs.org/)
 #### 2. Get this repo
-+ Download zip or run `git clone https://github.com/automata-network/crypto-tool.git`
++ Option1: download zip `ed25519-tool.zip` in the release page
++ Option2: run `git clone https://github.com/automata-network/ed25519-tool.git`
 #### 3. Go to project folder
-+ Run `cd crypto-tool`
++ Run `cd ed25519-tool`
 #### 4. Get dependencies
 + Run `npm install`
 #### 5. Sign
